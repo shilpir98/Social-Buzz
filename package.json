@@ -10,8 +10,8 @@
     "test": "make test"
   },
   "engines": {
-     "node": "v6.11.3",
-	"npm":"3.10.10"
+     "node": "v6.11.3"
+	
   },
   "dependencies": {
     "async": "latest",
