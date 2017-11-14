@@ -6,7 +6,7 @@ const clientSecret = process.env.GITHUB_CLIENT_SECRET;
 
 module.exports = {
   development: {
-    db: "mongodb://root:volvo76@ds039078.mongolab.com:39078/ntwitter",
+    db: "mongodb://shilz98:1shilpikool1@ds257485.mlab.com:57485/social123",
     root: rootPath,
     app: {
       name: "Node Twitter"
@@ -14,11 +14,11 @@ module.exports = {
     github: {
       clientID: "440bdd35de0814897c1d",
       clientSecret: "df7247a4b9fab74040ec1881416d6d1c24d873b7",
-      callbackURL: "http://localhost:3000/auth/github/callback"
+      callbackURL: "http://socialbuzz123.herokuapp/auth/github/callback"
     }
   },
   test: {
-    db: "mongodb://root:volvo76@ds039078.mongolab.com:39078/ntwitter",
+    db: "mongodb://shilz98:1shilpikool1@ds257485.mlab.com:57485/social123",
     root: rootPath,
     app: {
       name: "Nodejs Express Mongoose "
@@ -26,7 +26,7 @@ module.exports = {
     github: {
       clientID: "440bdd35de0814897c1d",
       clientSecret: "df7247a4b9fab74040ec1881416d6d1c24d873b7",
-      callbackURL: "http://localhost:3000/auth/github/callback"
+      callbackURL: "http://socialbuzz123.herokuapp/auth/github/callback"
     }
   },
   production: {
