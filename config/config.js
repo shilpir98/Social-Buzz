@@ -14,7 +14,7 @@ module.exports = {
     github: {
       clientID: "440bdd35de0814897c1d",
       clientSecret: "df7247a4b9fab74040ec1881416d6d1c24d873b7",
-      callbackURL: "http://socialbuzz123.herokuapp/auth/github/callback"
+      callbackURL: "http://socialbuzz123.herokuapp/"
     }
   },
   test: {
@@ -26,19 +26,19 @@ module.exports = {
     github: {
       clientID: "440bdd35de0814897c1d",
       clientSecret: "df7247a4b9fab74040ec1881416d6d1c24d873b7",
-      callbackURL: "http://socialbuzz123.herokuapp/auth/github/callback"
+      callbackURL: "http://socialbuzz123.herokuapp/"
     }
   },
   production: {
-    db: DB,
+    db: "mongodb://shilz98:1shilpikool1@ds257485.mlab.com:57485/social123",
     root: rootPath,
     app: {
       name: "Nodejs Express Mongoose Demo"
     },
     github: {
-      clientID: clientID,
-      clientSecret: clientSecret,
-      callbackURL: "http://agile-castle-42815.herokuapp.com/auth/github/callback"
+      clientID: "440bdd35de0814897c1d",
+      clientSecret: "df7247a4b9fab74040ec1881416d6d1c24d873b7",
+      callbackURL: "http://socialbuzz123.herokuapp/"
     }
   }
 };
