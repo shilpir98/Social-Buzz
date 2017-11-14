@@ -14,7 +14,7 @@ module.exports = {
     github: {
       clientID: "440bdd35de0814897c1d",
       clientSecret: "df7247a4b9fab74040ec1881416d6d1c24d873b7",
-      https://socialbuzz123.herokuapp.com/login
+      
       callbackURL: "http://socialbuzz123.herokuapp.com/auth/github/callback"
     }
   },
